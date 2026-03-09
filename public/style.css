@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#orders {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+#orders div {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+h2 {
+  color: #00ff9c;
+}
